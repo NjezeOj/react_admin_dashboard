@@ -1,0 +1,40 @@
+.sidebar{
+    flex: 1;
+    height: calc(100vh - 50px);/* if side bar is 100vh, it will overflow therefore i'll have to subtract
+    100vh from the height of the Topbar*/
+    background-color: rgb(251, 251, 255); 
+    position: sticky;
+    top: 50px; /* because it is under the topbar and even if we scroll the
+     page, it is gonna remain at its position*/
+}
+
+.sidebarWrapper{
+    padding: 20px;
+    color: #555;
+}
+
+.sidebarMenu{
+    margin-bottom: 10px;
+}
+
+.sidebarTitle{
+    font-size: 13px;
+    color: rgb(197, 194, 194);
+}
+
+.sidebarList{
+    list-style: none;
+    padding: 5px;
+}
+
+.sidebarListItem{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sidebarListItem.active, .sidebarListItem:hover{
+    background-color: rgb(228, 228, 250);
+}
