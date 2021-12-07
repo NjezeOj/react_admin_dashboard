@@ -1,0 +1,10 @@
+.home{
+    flex: 4; /* This makes the others div 4 times the 
+            width of the Sidebar container */
+    
+}
+
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}

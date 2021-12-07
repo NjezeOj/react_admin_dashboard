@@ -1,3 +1,9 @@
+## Websites used
+[Material UI](https://mui.com/)
+[html-css-js.com](https://html-css-js.com)
+[recharts](https://recharts.org/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
